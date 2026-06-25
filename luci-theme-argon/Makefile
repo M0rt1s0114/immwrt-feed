@@ -14,7 +14,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/luci-theme-argon
   SECTION:=luci
   CATEGORY:=LuCI
-  SUBMENU:=Themes
+  SUBMENU:=4. Themes
   TITLE:=Argon Theme
   DEPENDS:=+luci
   PKGARCH:=all

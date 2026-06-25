@@ -14,7 +14,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/luci-app-aurora-config
   SECTION:=luci
   CATEGORY:=LuCI
-  SUBMENU:=Applications
+  SUBMENU:=3. Applications
   TITLE:=Aurora Theme Config
   DEPENDS:=+luci-theme-aurora
   PKGARCH:=all

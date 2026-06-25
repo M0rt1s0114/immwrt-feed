@@ -14,7 +14,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/luci-theme-aurora
   SECTION:=luci
   CATEGORY:=LuCI
-  SUBMENU:=Themes
+  SUBMENU:=4. Themes
   TITLE:=Aurora Theme
   DEPENDS:=+luci
   PKGARCH:=all
