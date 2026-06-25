@@ -1,12 +1,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-theme-aurora
-PKG_VERSION:=0.3.0
+PKG_VERSION:=1.0.0
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/eamonxg/luci-theme-aurora.git
-PKG_SOURCE_VERSION:=v$(PKG_VERSION)
+PKG_SOURCE_VERSION:=v1.0.0
 PKG_MIRROR_HASH:=skip
 
 include $(INCLUDE_DIR)/package.mk
