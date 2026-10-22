@@ -1,12 +1,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-theme-argon
-PKG_VERSION:=3.0.0
+PKG_VERSION:=3.1.0
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/jerrykuku/luci-theme-argon.git
-PKG_SOURCE_VERSION:=v3.0.0
+PKG_SOURCE_VERSION:=v3.1.0
 PKG_MIRROR_HASH:=skip
 
 include $(INCLUDE_DIR)/package.mk
